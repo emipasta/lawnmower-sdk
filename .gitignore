@@ -90,11 +90,8 @@ sp/src/vgui2/*.dll
 sp/src/vgui2/*.pdb
 
 # AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-!sp/src/*.cpp
-!sp/src/*.h
 *.lib
 *.vsidx
-*.lib
 *.pdb
 *.json
 *.recipe
@@ -103,3 +100,4 @@ sp/src/vgui2/*.pdb
 *.db
 *.bin
 *.sqlite
+sp/src/vpc_scripts/newer_vs_toolsets.vpc
