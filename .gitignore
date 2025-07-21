@@ -89,5 +89,15 @@ sp/src/materialsystem/*.pdb
 sp/src/vgui2/*.dll
 sp/src/vgui2/*.pdb
 
-# Build support files
-sp/src/devtools/gcc9+support.o
+# AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+*.lib
+*.vsidx
+*.pdb
+*.json
+*.recipe
+*.txt
+.vs/lawnmower-sdk/v17/.wsuo
+*.db
+*.bin
+*.sqlite
+sp/src/vpc_scripts/newer_vs_toolsets.vpc
