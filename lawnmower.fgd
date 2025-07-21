@@ -1,0 +1,18 @@
+@include "base.fgd"
+
+@PointClass base(Targetname) = logic_test_entity : "Tutorial logical entity."
+[
+	threshold(integer) : "Threshold" : 1 : "Threshold value."
+	input Tick(void) : "Adds one tick to the entity's count."
+	output OnThreshold(void) : "Threshold was hit."
+]
+
+@PointClass base(Targetname) studio("models/gibs/airboat_broken_engine.mdl")= model_test_entity :  "Tutorial model entity."
+[
+	input Toggle(void) : "Toggle movement."
+]
+
+@PointClass base(Targetname) studio("models/lawnmower.mdl")= vehicle_lawnmower :  "Lawnmower object."
+[
+	input Toggle(void) : "Toggle movement."
+]

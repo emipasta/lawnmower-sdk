@@ -974,6 +974,9 @@ void CBaseServerVehicle::CacheEntryExitPoints( void )
 //-----------------------------------------------------------------------------
 void CBaseServerVehicle::ParseEntryExitAnims( void )
 {
+	Msg("i don't know what this function does but it's not happy and neither is it's cache variant :(\n");
+	//CacheEntryExitPoints();
+	return;
 	// Try and find the right animation to play in the model's keyvalues
 	KeyValues *modelKeyValues = new KeyValues("");
 	if ( modelKeyValues->LoadFromBuffer( modelinfo->GetModelName( m_pVehicle->GetModel() ), modelinfo->GetModelKeyValueText( m_pVehicle->GetModel() ) ) )
@@ -1020,6 +1023,7 @@ void CBaseServerVehicle::ParseEntryExitAnims( void )
 	modelKeyValues->deleteThis();
 
 	// Determine the entry and exit points for the 
+	//												for the what?
 	CacheEntryExitPoints();
 }
 
